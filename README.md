@@ -1,21 +1,21 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Container Orchestration</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module provides an introduction to container orchestration, focusing on the management and scaling of containerized applications in complex environments. Students will learn how orchestration tools automate tasks like deployment, scaling, and load balancing to ensure efficient management of containers. The module covers both self-managed and managed orchestration tools, including popular platforms like Kubernetes, Docker Swarm, Apache Mesos, and cloud services such as Amazon EKS and Google GKE. Students will gain a deeper understanding of the differences between these tools, their key features, and their common use cases in real-world applications.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Setting up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills covered                     |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills covered                     |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills covered                     |
-| **Total content**                                   | -- |                                         |
+| Lesson                                                                                                      | Est. Delivery Time | Skills                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------- | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [Intro to Container Orchestration](./intro-to-container-orchestration/README.md)                            |       15 min       | Understand container orchestration concepts, benefits, and common use cases.                                                        |
+| [How Orchestrators Manage Workloads](./how-orchestrators-manage-workloads/README.md)                        |       15 min       | Learn how orchestrators manage tasks like scheduling, scaling, and balancing workloads.                                             |
+| [Modern Server Management: Containers as Assets](./modern-server-management-containers-as-assets/README.md) |       15 min       | Explore how to treat containers as replaceable assets for scalable server management.                                               |
+| [Container Orchestration Tools](./container-orchestration-tools/README.md)                                  |       15 min       | Identify and compare self-managed vs managed orchestration tools, including popular options like Kubernetes, Docker Swarm, and EKS. |
+| **Total content**                                                                                           |       60 min       |                                                                                                                                     |
 
 ## References
 
@@ -25,32 +25,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [tktk Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [tktk Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Intro to Docker
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk course full name](./canvas-landing-pages/tktk-course-acronym.md)
-- [Fallback](./canvas-landing-pages/fallback.md)
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/container-orchestration/canvas-landing-pages/fallback)
+- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/container-orchestration/canvas-landing-pages/mea)
 
 ### Resources
 

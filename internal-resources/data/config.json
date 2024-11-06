@@ -1,0 +1,115 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Container Orchestration",
+    "name": "container-orchestration",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Intro to Container Orchestration",
+          "dirName": "intro-to-container-orchestration",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "How Orchestrators Manage Workloads",
+          "dirName": "how-orchestrators-manage-workloads",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Modern Server Management: Containers as Assets",
+          "dirName": "modern-server-management-containers-as-assets",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Container Orchestration Tools",
+          "dirName": "container-orchestration-tools",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "mea",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Intro to Container Orchestration",
+          "dirName": "intro-to-container-orchestration",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "How Orchestrators Manage Workloads",
+          "dirName": "how-orchestrators-manage-workloads",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Modern Server Management: Containers as Assets",
+          "dirName": "modern-server-management-containers-as-assets",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Container Orchestration Tools",
+          "dirName": "container-orchestration-tools",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}

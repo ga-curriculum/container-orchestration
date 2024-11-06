@@ -2,30 +2,31 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 
 // Add microlessons here, in the order they should be delivered
 
-setup = new Template.Microlesson {
-  friendlyName = "Setup"
-  dirName = "setup"
+introToContainerOrchestration = new Template.Microlesson {
+  friendlyName = "Intro to Container Orchestration"
+  dirName = "intro-to-container-orchestration"
   type = "Content"
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+howOrchestratorsManageWorkloads = new Template.Microlesson {
+  friendlyName = "How Orchestrators Manage Workloads"
+  dirName = "how-orchestrators-manage-workloads"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+modernServerManagementContainersAsAssets = new Template.Microlesson {
+  friendlyName = "Modern Server Management: Containers as Assets"
+  dirName = "modern-server-management-containers-as-assets"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+containerOrchestrationTools = new Template.Microlesson {
+  friendlyName = "Container Orchestration Tools"
+  dirName = "container-orchestration-tools"
   type = "Content"
   videoUrl = ""
 }
+
