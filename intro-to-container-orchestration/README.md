@@ -27,7 +27,7 @@ Sarah owns a small but growing e-commerce site that sells custom T-shirts. Her w
 
 At first, Sarah’s single cloud server handled her website traffic without any issues. But as the holiday season approached, traffic surged. Pages started loading slowly, customers experienced delays, and some even left the site without making a purchase. Seeing that she was losing business, Sarah knew it was time to scale her setup.
 
-### 1. Sarah’s First Attempt at Scaling: Adding Servers Manually
+## 1. Sarah’s First Attempt at Scaling: Adding Servers Manually
 
 To handle the extra traffic, Sarah decided to add a new server. She followed some online advice and:
 
@@ -39,13 +39,13 @@ Just like that, she had doubled her capacity. Problem solved—for now.
 
 But this manual setup had limitations. Each time she wanted more capacity, she’d have to repeat the entire process for each new server. Plus, she’d need to manage updates for Java, Apache, the OS, and other software on every machine. Doing this on top of running her business was becoming challenging.
 
-#### Scaling Up Efficiently
+### Scaling Up Efficiently
 
 Sarah’s new setup kept things running smoothly for about a week, but soon enough, her site started slowing down again as demand surged. Frustrated customers were leaving without completing their purchases. Realizing she needed a long-term solution, Sarah assessed her needs and estimated she’d need **about 10 servers** to handle peak holiday traffic.
 
 Setting up and maintaining 10 servers manually would be time-consuming and unsustainable as her business continued to grow.
 
-### 2. A Smarter Solution: Containerizing the Application
+## 2. A Smarter Solution: Containerizing the Application
 
 Sarah decided to try a different approach: containerizing her application with Docker. By using Docker containers, she could package all her app's dependencies into isolated units, eliminating the need to manage Java and Apache on each server individually.
 
@@ -55,13 +55,13 @@ Sarah decided to try a different approach: containerizing her application with D
 
 <br>
 
-#### Advantages of Containers
+### Advantages of Containers
 
 - With Docker, Sarah could run her containers on any server with Docker installed, creating a standardized environment that saved setup time. Now, each new server only required Docker, and she could quickly deploy her containers.
 
 - She created a reusable server image with Docker pre-installed, so adding capacity was as easy as starting a new server from this image and deploying her containers. Once they were running, she could configure her load balancer to direct traffic accordingly. Now, she only needed to keep Docker and the OS up to date on each server—a big improvement!
 
-#### Limitations of Containers
+### Limitations of Containers
 
 This approach worked well initially, but there were still some drawbacks:
 
@@ -71,7 +71,7 @@ This approach worked well initially, but there were still some drawbacks:
 
 Clearly, there was room for further improvement.
 
-### 3. The Final Step: Setting Up a Container Orchestrator
+## 3. The Final Step: Setting Up a Container Orchestrator
 
 After careful consideration, Sarah decided to implement a container orchestrator to manage and automate her containerized setup. She researched her options and chose a tool to orchestrate her environment, making scaling more efficient and manageable.
 
@@ -85,7 +85,7 @@ Now, instead of manually setting up servers and installing Docker each time she 
 
 Sarah configured the orchestrator to run **10 instances** of her web application and **10 instances** of her API. The orchestrator automatically started these containers, kept them running, and even replaced any that became unresponsive.
 
-#### With an Orchestrator, Sarah Gained These Benefits:
+### With an Orchestrator, Sarah Gained These Benefits:
 
 - The orchestrator automatically started, monitored, and restarted containers whenever they failed, ensuring everything ran smoothly without Sarah needing to step in.
 - Traffic was spread evenly across all containers, and the orchestrator adjusted routing whenever new containers were added or removed, enhancing load balancing.
