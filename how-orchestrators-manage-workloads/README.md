@@ -7,7 +7,7 @@
 
 ## How Do Container Orchestrators Work?
 
-Imagine containerized applications as being similar to goods packed in shipping containers. Just like shipping containers make it easy to transport products efficiently by standardizing how they’re packed and moved, containers help developers package applications in a standardized way, making them easy to deploy and run across different environments.
+Imagine containerized applications as being similar to goods packed in shipping containers. Just like shipping containers make it easy to transport products easily by standardizing how they’re packed and moved, containers help developers package applications in a standardized way, making them easy to deploy and run across different environments.
 
 <br>
 
@@ -56,7 +56,7 @@ Let’s explore some essential terms in container orchestration:
 
 <br>
 
-<img src="./assets/container-orchestration-cluster.png" alt="Container Orchestration Cluster" style="width:700px;"/>
+<img src="./assets/cluster-components.png" alt="Container Orchestration Cluster" style="width:1000px;"/>
 
 <br>
 

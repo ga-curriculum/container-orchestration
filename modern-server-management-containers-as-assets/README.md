@@ -15,13 +15,17 @@ In containerized platforms, there’s a popular analogy: **treat servers like ca
 
 In the past, organizations commonly used dedicated servers for specific applications— such as running an Apache web server. These servers were configured manually, maintained regularly, and required close attention to stay functional. When issues came up, teams would spend time troubleshooting, updating, or even rebuilding these servers from scratch. This process could be time-consuming and expensive.
 
-These dedicated servers are sometimes called **"snowflakes"** because each one is unique, just like a snowflake. In our analogy, we might call these servers **“pets”** because, like pets, they are cared for individually, kept healthy, and fixed when they break.
+> These dedicated servers are sometimes called **"snowflakes"** because each one is unique, just like a snowflake. 
+
+> In our analogy, we might call these servers **“pets”** because, like pets, they are cared for individually, kept healthy, and fixed when they break.
 
 ### Modern approach: treating servers as replaceable resources
 
 With today’s approach, servers are often treated more like resources in a farm—standardized and ready to be replaced when needed. Using **Infrastructure as Code** (IaC) practices, teams can quickly rebuild and deploy servers with minimal effort by running automated commands, ensuring consistency across servers and saving time. Applications are now designed to be **stateless**—meaning they store important data outside of the server, in external storage or cloud services. This setup makes replacing individual servers easy, with no data loss.
 
-In this approach, we don't focus on troubleshooting or maintaining each server individually. If a server has issues, we simply replace it with a new one. This is why these types of servers are sometimes called **“cattle”** in the analogy—they’re part of a large group, managed as a whole, rather than individually nurtured.
+In this approach, we don't focus on troubleshooting or maintaining each server individually. If a server has issues, we simply replace it with a new one. 
+
+> This is why these types of servers are sometimes called **“cattle”** in the analogy—they’re part of a large group, managed as a whole, rather than individually nurtured.
 
 ### Containers follow the same principle
 
@@ -29,7 +33,7 @@ Containers operate in a similar way. When a containerized application encounters
 
 If an issue is persistent, it is usually fixed in the codebase, creating an updated container image, which is then deployed as a replacement. In a well-managed environment, systems administrators or "ops teams" rarely need to manually access a container (such as by **SSH**—securely connecting to it for troubleshooting). Instead, they rely on automated processes to see that new containers are launched as needed.
 
-### Using Infrastructure as Code (IaC)
+### Ansible and Terraform: Using Infrastructure as Code (IaC)
 
 When deploying containers and managing servers, **Infrastructure as Code** (IaC) tools like **Ansible** and **Terraform** automate the setup and management of servers within a cluster. With IaC, new nodes (servers) can be added quickly to accommodate increasing demand, and existing nodes can be easily replaced.
 

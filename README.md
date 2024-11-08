@@ -5,7 +5,7 @@
 
 ## About
 
-This module provides an introduction to container orchestration, focusing on the management and scaling of containerized applications in complex environments. Students will learn how orchestration tools automate tasks like deployment, scaling, and load balancing to ensure efficient management of containers. The module covers both self-managed and managed orchestration tools, including popular platforms like Kubernetes, Docker Swarm, Apache Mesos, and cloud services such as Amazon EKS and Google GKE. Students will gain a deeper understanding of the differences between these tools, their key features, and their common use cases in real-world applications.
+This module provides an introduction to container orchestration, focusing on the management and scaling of containerized applications in complex environments. Students will learn how orchestration tools automate tasks like deployment, scaling, and load balancing to ensure efficient management of containers. The module introduces both self-managed and managed orchestration tools, including popular platforms like Kubernetes, Docker Swarm, Apache Mesos, and cloud services such as Amazon EKS and Google GKE. Students will gain an understanding of the differences between these tools, their key features, and their common use cases in real-world applications.
 
 ## Content
 
