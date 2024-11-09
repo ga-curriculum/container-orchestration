@@ -21,7 +21,7 @@ Sarah owns a small but growing e-commerce site that sells custom T-shirts. Her w
 
 <br>
 
-<img src="./assets/sarah-website-1.png" alt="tktk" style="width:700px;"/>
+<img src="./assets/sarah-website-1.png" alt="One Server Website" style="width:700px;"/>
 
 <br>
 
@@ -39,7 +39,7 @@ Just like that, she had doubled her capacity! Problem solved— _temporarily_.
 
 <br>
 
-<img src="./assets/sarah-website-2.png" alt="tktk" style="width:700px;"/>
+<img src="./assets/sarah-website-2.png" alt="Two server website" style="width:700px;"/>
 
 <br>
 
@@ -53,7 +53,7 @@ To simplify scaling, Sarah decided to **containerize** her application using **D
 
 <br>
 
-<img src="./assets/sarah-website-3.png" alt="tktk" style="width:700px;"/>
+<img src="./assets/sarah-website-3.png" alt="Containerized website" style="width:700px;"/>
 
 <br>
 

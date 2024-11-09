@@ -5,6 +5,8 @@
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [IBM - What is Container Orchestration?](https://www.ibm.com/cloud/learn/container-orchestration)
+
+- [LaunchDarkly - What Is Container Orchestration?](https://launchdarkly.com/blog/what-is-container-orchestration-exactly-everything/)
+
+- [GeekFlare - 14 Container Orchestration Tools for DevOps](https://geekflare.com/container-orchestration-software/)
