@@ -9,7 +9,7 @@
 
 In containerized platforms, there’s a popular analogy: **treat servers like cattle, not pets**. While it may come across as harsh, it’s a commonly used phrase in the industry to convey a shift in how we approach server management in modern infrastructure.
 
-![Cattle Not Pets](img/cattle-not-pets.jpg)
+![Cattle Not Pets](./assets/cattle-not-pets.jpg)
 
 ### From unique servers to disposable resources
 
