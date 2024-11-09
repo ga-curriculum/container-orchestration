@@ -9,9 +9,9 @@
 
 In this lesson, we’ll explore how containers and container orchestration can help a business scale efficiently. Using the example of a growing small business e-commerce website, we’ll examine how containers help solve key challenges in infrastructure scaling.
 
-## An example scenario
+## The Scenario: Scaling a small online shop
 
-Let’s take a look at Sarah's story.
+Let’s take a look at **Sarah's** story.
 
 Sarah owns a small but growing e-commerce site that sells custom T-shirts. Her website setup includes:
 
