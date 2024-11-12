@@ -60,25 +60,12 @@ Let’s explore some essential terms in container orchestration:
 
 <br>
 
-### Docker vs. Container Orchestrators
+### Docker vs. Container Orchestrators make discussion
 
 - **Docker**: Docker is a platform for creating and running containers. It packages applications with their dependencies into isolated units that can run consistently in any environment, typically on a single machine.
 
 - **Container Orchestrators**: When you need to manage containers across multiple servers, container orchestrators automate and simplify this process. They handle deployment, scaling, resource management, and more, allowing containers to run across an entire cluster of servers.
 
-In other words, **Docker** creates containers, while **orchestrators** manage them at scale, enabling applications to run seamlessly across large, distributed environments.
-
-### Key Responsibilities of Container Orchestrators
-
-With a container orchestrator, you can automate and efficiently manage:
-
-|                              |                                                                                                                                        |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Container Health**         | Orchestrators monitor container health and automatically replace failed containers, so applications keep running smoothly.             |
-| **Load Distribution**        | They distribute containers across nodes to balance CPU and memory resources, preventing overloads.                                     |
-| **Resource Management**      | Orchestrators track resource usage and alert administrators when additional nodes are needed to support demand.                        |
-| **Utilization Optimization** | Orchestrators pack containers onto nodes efficiently, maximizing each server’s capacity and reducing costs by avoiding idle resources. |
-
-<br>
+> In other words, **Docker** _creates_ containers, while an **orchestrator** _manages_ them at scale, enabling applications to run consistently across large, distributed environments.
 
 Ultimately, Docker handles container creation and individual runtime, while a container orchestrator takes on the complexity of managing large-scale, containerized applications across a cluster.
