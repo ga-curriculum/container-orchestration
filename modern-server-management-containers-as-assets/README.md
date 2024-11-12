@@ -35,12 +35,12 @@ If an issue is persistent, it is usually fixed in the codebase, creating an upda
 
 ## Using Infrastructure as Code (IaC): Ansible and Terraform
 
-When deploying containers and managing servers, **Infrastructure as Code** (IaC) tools like **Ansible** and **Terraform** automate the setup and management of servers within a cluster. With IaC, new nodes (servers) can be added quickly to accommodate increasing demand, and existing nodes can be easily replaced.
+When deploying containers and managing servers, [**Infrastructure as Code** (IaC)](https://www.ibm.com/topics/infrastructure-as-code) tools like **Ansible** and **Terraform** automate the setup and management of servers within a cluster. With IaC, new nodes (servers) can be added quickly to accommodate increasing demand, and existing nodes can be easily replaced.
 
-| Logo                                                                          | Tool          | Description                                                                                                                                                                   |
-| ----------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="./assets/terraform.png" alt="Terraform Logo" style="width:200px;"/> | **Terraform** | Provisions new servers (nodes) in a cluster, allowing teams to quickly add capacity when needed. It ensures consistency by deploying identical configurations across servers. |
-| <img src="./assets/ansible.png" alt="Ansible Logo" style="width:200px;"/>     | **Ansible**   | Manages software and configuration on each server, automating tasks like updates and maintaining uniformity across all nodes.                                                 |
+| Logo                                                                          | Tool                                       | Description                                                                                                                                                                   |
+| ----------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./assets/terraform.png" alt="Terraform Logo" style="width:200px;"/> | [**Terraform**](https://www.terraform.io/) | Provisions new servers (nodes) in a cluster, allowing teams to quickly add capacity when needed. It ensures consistency by deploying identical configurations across servers. |
+| <img src="./assets/ansible.png" alt="Ansible Logo" style="width:200px;"/>     | [**Ansible**](https://www.ansible.com/)    | Manages software and configuration on each server, automating tasks like updates and maintaining uniformity across all nodes.                                                 |
 
 Together, these tools streamline server operations, making it easy to deploy, scale, and manage infrastructure with minimal manual intervention.
 
