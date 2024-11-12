@@ -43,7 +43,7 @@ Just like a dock oversees loading and managing shipping containers, orchestrator
 
 ### Key Terminology
 
-Let’s explore some essential terms in container orchestration:
+Let’s explore some common terms in container orchestration:
 
 | **Term**          | **Definition**                                                                                                                     |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |

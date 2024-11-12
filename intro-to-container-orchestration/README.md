@@ -109,7 +109,7 @@ Imagine applying Sarah’s story to a large enterprise with hundreds, thousands,
 - Some containers, like web applications and APIs, need to be up **24/7** to ensure availability for users.
 - Other containers may run only at specific times or when triggered, such as scheduled backups, nightly data processing jobs, or ad-hoc batch imports.
 
-Managing this many containers, across hundreds or even thousands of virtual machines, is complex. The costs add up quickly, so it’s essential to be as efficient with compute resources as possible. Without automation, this would require a dedicated team to monitor, balance, and troubleshoot continuously.
+Managing this many containers, across hundreds or even thousands of virtual machines, is complex. The costs add up quickly, so it’s important to be as efficient with compute resources as possible. Without automation, this would require a dedicated team to monitor, balance, and troubleshoot continuously.
 
 This is where a **container orchestrator** proves invaluable. An orchestrator provides a control plane that manages all nodes in a cluster and the containers running on them. It automates crucial tasks like scaling up and down, restarting failed containers, load balancing, and optimizing resource usage across the cluster.
 
