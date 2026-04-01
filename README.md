@@ -29,8 +29,8 @@ This module provides an introduction to container orchestration, focusing on the
 
 ### Course landing pages
 
-- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/container-orchestration/canvas-landing-pages/fallback)
-- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/container-orchestration/canvas-landing-pages/mea)
+- [Default Landing Page](https://ga-curriculum.github.io/container-orchestration/canvas-landing-pages/fallback)
+- [MEA - Modern Engineering](https://ga-curriculum.github.io/container-orchestration/canvas-landing-pages/mea)
 
 ### Resources
 
@@ -42,4 +42,4 @@ This module provides an introduction to container orchestration, focusing on the
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
